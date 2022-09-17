@@ -1,0 +1,39 @@
+.list-element-link {
+  display: table-row;
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+.list-element-link:hover {
+  background: #F6F6F6;
+  cursor: pointer;
+}
+
+td {
+  height: 50px;
+  padding-left: 24px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #111827;
+  border-bottom: 1px solid #F6F6F6;
+}
+
+tbody>.list-element-link>:nth-child(1) {
+  color: #111827;
+  width: 254px;
+}
+
+tbody>.list-element-link>:nth-child(2) {
+  color: #6B7280;
+}
+
+.active {
+  color: #5D5FEF;
+}
+
+.disable {
+  color: #EF5DA8;
+}

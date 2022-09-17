@@ -1,0 +1,47 @@
+.stats-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 32px;
+  .total-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 22px;
+    .total-value {
+      font-family: 'Montserrat', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 132%;
+      color: #333333;
+    }
+  }
+
+  .stats-container {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    .stats-wrap {
+      display: flex;
+      flex-direction: column;
+      margin-right: 32px;
+      .value {
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 132%;
+        color: #333333;
+        opacity: 0.8;
+      }
+    }
+  }
+}
+
+.stats-category {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.4px;
+  color: #9C9C9C;
+}

@@ -1,0 +1,34 @@
+.chart {
+  height: 700px!important;
+  margin: 0 55px;
+}
+
+.form {
+position: absolute;
+  right: 130px;
+  top: 70px;
+}
+
+.form label {
+  border: 1px solid #E5E5E5;
+  padding: 6px 13px;
+  background: #FFFFFF;
+}
+
+input {
+  appearance: none;
+}
+
+input:focus {
+  font-weight: 700;
+  background: red;
+}
+
+label:focus {
+  font-weight: 700!important;
+  background: red;
+}
+
+label:has(input[type="radio"]:checked)  {
+  font-weight: 700!important;
+}
