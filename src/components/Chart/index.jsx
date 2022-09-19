@@ -40,6 +40,11 @@ export const options = {
             text: 'Revenue',
         },
     },
+    datasets: {
+        line: {
+            pointRadius: 0,
+        }
+    }
 };
 
 const PERIOD_OPTIONS = [
@@ -53,6 +58,8 @@ const DATASETS_OPTIONS = {
     label: "Revenue",
     borderColor: 'rgb(53, 162, 235)',
     backgroundColor: 'rgba(53, 162, 235, 0.5)',
+    tension: 0.5,
+
 }
 
 export function BarChart({ rawData }) {
